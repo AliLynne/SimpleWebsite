@@ -1,0 +1,27 @@
+<!-- BEM .block-element--modifier -->
+<!-- Block = standalone entity, meaningful on its own -->
+<!-- Element = has no standalone meaning - is semantically tied to its block -->
+<!-- Modifier = flag on a block or element - used to change appearance or behavior -->
+<!-- Example: .header-logo--large -->
+
+<!-- HTML = Hyper Text Markup Language -->
+<!-- <html> <-- Tag that represents the elements that are building blocks of HTML -->
+<!-- Doctype tells user agent what version of the HTML specification this document respects-->
+<!-- User Agent = software that is acting on the behalf of the user, in this case, the browser -->
+<!DOCTYPE html> <!-- Required -->
+
+
+<html> <!-- Root element of the page - Required -->
+  <head> <!-- Contains meta info about doc - Required -->
+    <title>Sample Website</title> <!-- Gives the title of the document - will appear in tab with favicon -->
+    <link rel=stylesheeet href="style.css" /> <!-- Tells the document where to find the css file-->
+    <script defer src="./script.js"></script> <!-- Tells the document where to find and when to run the js file-->
+  </head> <!-- Closing tag. Most tags come in pairs with an opening and closing tag. -->
+  <body> <!-- The Body tag will contain all of the visible page content -->
+    <h1 id="hello_world">Hello World</h1> <!-- Defines an important (and usually large) heading. Options are H1 through H6. H1 being most important, h6 being least. -->
+    <h4 id="date"></h4>
+    <p>This is a paragraph of text.</p> <!-- Paragraph -->
+    <a href="https://www.google.com"> This is a link to Google </a> <!-- HTML Link the destination is specified in the href attribute -->
+    <img src="https://picsum.photos/200" alt="random image from Lorem Picsum" width="200" height="200"> <!-- Indicates and image. The image tag is self contained and does not need a closing tag.-->
+  </body>
+</html>
